@@ -1,0 +1,94 @@
+
+/* primer.css */
+/* Estilos generales */
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='558' preserveAspectRatio='none' viewBox='0 0 1440 558'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1139%26quot%3b)' fill='none'%3e%3crect width='1440' height='558' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c547.202C102.924%2c539.29%2c140.02%2c404.134%2c212.457%2c330.589C266.497%2c275.722%2c337.826%2c238.909%2c371.747%2c169.771C406.195%2c99.558%2c413.918%2c19.499%2c403.086%2c-57.955C392.226%2c-135.608%2c350.879%2c-201.809%2c310.39%2c-268.955C261.929%2c-349.322%2c231.155%2c-455.15%2c143.448%2c-488.537C55.534%2c-522.002%2c-44.465%2c-479.132%2c-127.969%2c-435.821C-202.247%2c-397.295%2c-234.815%2c-312.775%2c-298.977%2c-259.065C-380.233%2c-191.046%2c-530.815%2c-183.091%2c-553.53%2c-79.586C-575.732%2c21.583%2c-455.851%2c96.45%2c-395.465%2c180.603C-346.927%2c248.245%2c-295.596%2c308.352%2c-234.54%2c364.952C-160.43%2c433.653%2c-100.758%2c554.948%2c0%2c547.202' fill='%230c243c'%3e%3c/path%3e%3cpath d='M1440 1230.461C1569.867 1257.2559999999999 1714.283 1229.7 1821.782 1152.065 1927.478 1075.733 1991.915 947.5609999999999 2010.4270000000001 818.505 2026.953 703.288 1953.508 599.908 1916.827 489.443 1887.212 400.257 1862.871 313.704 1815.797 232.37 1758.821 133.92700000000002 1712.297 22.903999999999996 1613.842-34.051000000000045 1504.541-97.27999999999997 1370.477-126.57600000000002 1247.929-96.13499999999999 1123.54-65.23699999999997 1035.098 37.67100000000005 947.6990000000001 131.41899999999998 857.333 228.349 725.392 324.023 732.877 456.331 740.54 591.79 902.559 657.624 983.621 766.421 1043.811 847.204 1076.973 941.14 1147.612 1012.9649999999999 1234.547 1101.359 1318.577 1205.408 1440 1230.461' fill='%23103052'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1139'%3e%3crect width='1440' height='558' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+
+
+
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    color: #fff;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+
+    color: #fff;
+}
+
+/* Estilos para enlaces en la sección de Tecnologías Destacadas */
+ul li a {
+    color: #007BFF;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para las filas alternas */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
